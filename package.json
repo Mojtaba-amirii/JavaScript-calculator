@@ -9,7 +9,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^2.6.1",
+    "@reduxjs/toolkit": "^2.7.0",
     "bootstrap": "^5.3.5",
     "mathjs": "^14.4.0",
     "react": "^19.1.0",
