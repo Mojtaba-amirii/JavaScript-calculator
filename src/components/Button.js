@@ -1,5 +1,3 @@
-import React from "react";
-
 const Button = ({ id, value, onClick }) => (
   <button
     id={id}

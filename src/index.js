@@ -1,12 +1,12 @@
-import React, { StrictMode } from "react";
-import ReactDOM from "react-dom/client";
+import { StrictMode } from "react";
 import { Provider } from "react-redux";
+import ReactDOM from "react-dom/client";
 
 import "./styles/index.css";
-import App from "./components/App";
-import reportWebVitals from "./reportWebVitals";
-import "bootstrap/dist/css/bootstrap.min.css";
 import store from "./redux/store";
+import App from "./components/App";
+import "bootstrap/dist/css/bootstrap.min.css";
+import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
